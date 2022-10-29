@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import {D20} from "./component/D20";
+import {getRandomInt} from "./common/utils";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [rolledNum, setRolledNum] = useState<number | null>(null)
+
+    const rollDice = () => {
+        const newInterval = setInterval(() => {
+            setRolledNum(getRandomInt(20))
+        }, 100)
+        setTimeout(() => {
+            clearInterval(newInterval)
+        }, 3000)
+    }
+
+
+    return (
+        <div className="App">
+            <D20 value={rolledNum}/>
+            <div>
+                <button onClick={rollDice}>roll</button>
+            </div>
+        </div>
+    );
 }
 
 export default App;
