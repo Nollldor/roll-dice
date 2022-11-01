@@ -1,0 +1,25 @@
+.App {
+    background-color: #c3c3ff;
+    height: 100vh;
+}
+.controlButtons {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.sumBlock {
+    text-align: center;
+}
+
+.dicesBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dice {
+    background-color: rebeccapurple;
+}
