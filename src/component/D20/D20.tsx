@@ -5,7 +5,7 @@ type PropsType = {
     value: number | null
 }
 
-export const D20:FC<PropsType> = ({value}) => {
+export const D20: FC<PropsType> = ({value}) => {
 
     return <div className={styles.d20}>
         <div>{value}</div>
