@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/roll-dice/static/css/main.c11eb9d9.css",
+    "main.css": "/roll-dice/static/css/main.a4f8f4d3.css",
     "main.js": "/roll-dice/static/js/main.34b56679.js",
     "static/js/787.86b5a038.chunk.js": "/roll-dice/static/js/787.86b5a038.chunk.js",
     "static/media/d20-icon.svg": "/roll-dice/static/media/d20-icon.0f828b50217a9bb1f851.svg",
@@ -10,12 +10,12 @@
     "static/media/d6-icon.svg": "/roll-dice/static/media/d6-icon.54f98aa19828be8aafa0.svg",
     "static/media/d4-icon.svg": "/roll-dice/static/media/d4-icon.d7f7b6675ccc7eed05de.svg",
     "index.html": "/roll-dice/index.html",
-    "main.c11eb9d9.css.map": "/roll-dice/static/css/main.c11eb9d9.css.map",
+    "main.a4f8f4d3.css.map": "/roll-dice/static/css/main.a4f8f4d3.css.map",
     "main.34b56679.js.map": "/roll-dice/static/js/main.34b56679.js.map",
     "787.86b5a038.chunk.js.map": "/roll-dice/static/js/787.86b5a038.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c11eb9d9.css",
+    "static/css/main.a4f8f4d3.css",
     "static/js/main.34b56679.js"
   ]
 }
