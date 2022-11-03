@@ -1,3 +1,10 @@
 .sumBlock {
     text-align: center;
+    height: 7vh;
+}
+
+.paper {
+    background-color: #1976d2;
+    color: white;
+
 }
