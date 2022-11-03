@@ -1,6 +1,6 @@
 .sumBlock {
     text-align: center;
-    height: 7vh;
+    min-height: 7vh;
 }
 
 .paper {
