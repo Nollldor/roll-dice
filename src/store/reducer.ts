@@ -1,4 +1,4 @@
-import {getRandomArrayOfInts, sumOfArray} from "../common/utils";
+import {getNullArray, getRandomArrayOfInts, sumOfArray} from "../common/utils";
 
 export type StateType = {
     dicesValues: Array<number | null>
@@ -18,6 +18,7 @@ export type ActionType = ReturnType<typeof setRollingMode>
     | ReturnType<typeof setDicesValues>
     | ReturnType<typeof addDice>
     | ReturnType<typeof removeDice>
+    | ReturnType<typeof setMaxDiceValue>
 
 export const reducer = (state: StateType = InitialState, action: ActionType) => {
     switch (action.type) {
@@ -31,7 +32,14 @@ export const reducer = (state: StateType = InitialState, action: ActionType) => 
         case 'REMOVE-DICE':
             const copyDicesValues = [...state.dicesValues]
             copyDicesValues.pop()
-            return {...state, dicesValues: copyDicesValues}
+            return {...state, dicesValues: copyDicesValues, sum: sumOfArray(copyDicesValues)}
+        case 'SET-MAX-DICE-VALUE':
+            return {
+                ...state,
+                maxDiceValue: action.value,
+                sum: 0,
+                dicesValues: getNullArray(state.dicesValues.length)
+            }
         default:
             return state
     }
@@ -53,3 +61,8 @@ export const addDice = () => ({
 export const removeDice = () => ({
     type: 'REMOVE-DICE'
 } as const)
+
+export const setMaxDiceValue = (value: number) => ({
+    type: 'SET-MAX-DICE-VALUE',
+    value
+}as const)

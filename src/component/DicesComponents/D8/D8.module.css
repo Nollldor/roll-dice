@@ -1,0 +1,14 @@
+.d8 {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-image: url("../../../common/icons/d8-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}

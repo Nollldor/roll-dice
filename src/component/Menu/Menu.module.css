@@ -1,6 +1,16 @@
 .controlButtons {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
+    margin: 0 0 10px;
+}
+
+.buttonGroup {
+
+}
+
+.selectDice {
+    margin: 0 0 10px;
 }

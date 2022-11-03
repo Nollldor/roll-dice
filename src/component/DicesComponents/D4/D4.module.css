@@ -1,8 +1,8 @@
-.d20 {
+.d4 {
     width: 200px;
     height: 200px;
     margin-top: 10px;
-    background-image: url("../../common/icons/d20-icon.svg");
+    background-image: url("../../../common/icons/d4-icon.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
