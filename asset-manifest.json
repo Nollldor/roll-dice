@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/roll-dice/static/css/main.88dad034.css",
-    "main.js": "/roll-dice/static/js/main.2dd5bf33.js",
+    "main.css": "/roll-dice/static/css/main.25b4cf7e.css",
+    "main.js": "/roll-dice/static/js/main.ac0ece61.js",
     "static/js/787.86b5a038.chunk.js": "/roll-dice/static/js/787.86b5a038.chunk.js",
     "static/media/d20-icon.svg": "/roll-dice/static/media/d20-icon.0f828b50217a9bb1f851.svg",
+    "static/media/d12-icon.svg": "/roll-dice/static/media/d12-icon.fc7cf9ae247a5c417634.svg",
+    "static/media/d10-icon.svg": "/roll-dice/static/media/d10-icon.7f470facc4cb70f10983.svg",
+    "static/media/d8-icon.svg": "/roll-dice/static/media/d8-icon.5486420bbf27e9580896.svg",
+    "static/media/d6-icon.svg": "/roll-dice/static/media/d6-icon.54f98aa19828be8aafa0.svg",
+    "static/media/d4-icon.svg": "/roll-dice/static/media/d4-icon.d7f7b6675ccc7eed05de.svg",
     "index.html": "/roll-dice/index.html",
-    "main.88dad034.css.map": "/roll-dice/static/css/main.88dad034.css.map",
-    "main.2dd5bf33.js.map": "/roll-dice/static/js/main.2dd5bf33.js.map",
+    "main.25b4cf7e.css.map": "/roll-dice/static/css/main.25b4cf7e.css.map",
+    "main.ac0ece61.js.map": "/roll-dice/static/js/main.ac0ece61.js.map",
     "787.86b5a038.chunk.js.map": "/roll-dice/static/js/787.86b5a038.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88dad034.css",
-    "static/js/main.2dd5bf33.js"
+    "static/css/main.25b4cf7e.css",
+    "static/js/main.ac0ece61.js"
   ]
 }
